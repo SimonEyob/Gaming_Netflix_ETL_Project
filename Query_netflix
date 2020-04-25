@@ -8,7 +8,8 @@ title varchar,
 date_added varchar,
 rating varchar,
 duration varchar,
-listed_in varchar
+listed_in varchar,
+primary key (show_id)
 );
 
 Create Table netflix_tvshows(
@@ -18,5 +19,6 @@ title varchar,
 date_added varchar,
 rating varchar,
 duration varchar,
-listed_in varchar
+listed_in varchar,
+primary key (show_id)
 );
