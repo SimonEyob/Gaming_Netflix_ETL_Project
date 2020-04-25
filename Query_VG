@@ -1,0 +1,59 @@
+Drop Table vg_1980;
+Drop Table vg_1990;
+Drop Table vg_2000;
+Drop Table vg_2010;
+
+Create Table vg_1980 (
+Rank int,
+Name Varchar,
+Platform varchar,
+Year int,
+Genre varchar,
+Publisher varchar,
+NA_Sales float,
+EU_Sales float,
+JP_Sales float,
+Other_Sales float,
+Global_Sales float)
+;
+
+Create Table vg_1990 (
+Rank int,
+Name varchar,
+Platform varchar,
+Year int,
+Genre varchar,
+Publisher varchar,
+NA_Sales float,
+EU_Sales float,
+JP_Sales float,
+Other_Sales float,
+Global_Sales float)
+;
+Create Table vg_2000 (
+Rank int,
+Name Varchar,
+Platform varchar,
+Year int,
+Genre varchar,
+Publisher varchar,
+NA_Sales float,
+EU_Sales float,
+JP_Sales float,
+Other_Sales float,
+Global_Sales float)
+;
+
+Create Table vg_2010 (
+Rank int,
+Name Varchar,
+Platform varchar,
+Year int,
+Genre varchar,
+Publisher varchar,
+NA_Sales float,
+EU_Sales float,
+JP_Sales float,
+Other_Sales float,
+Global_Sales float)
+;
